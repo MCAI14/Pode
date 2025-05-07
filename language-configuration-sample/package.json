@@ -1,9 +1,9 @@
 {
-  "name": "language-configuration-sample",
-  "displayName": "Language Configuration Sample",
-  "description": "Language Configuration Sample",
+  "name": "pode-language",
+  "displayName": "Pode Language",
+  "description": "Language configuration for Pode",
   "version": "0.0.1",
-  "publisher": "vscode-samples",
+  "publisher": "seu-nome",
   "engines": {
     "vscode": "^1.28.0"
   },
@@ -13,13 +13,13 @@
   "contributes": {
     "languages": [
       {
-        "id": "javascript",
+        "id": "pode",
         "extensions": [
-          ".js"
+          ".pde"
         ],
         "aliases": [
-          "js",
-          "JavaScript"
+          "pode",
+          "Pode"
         ],
         "configuration": "./language-configuration.json"
       }
